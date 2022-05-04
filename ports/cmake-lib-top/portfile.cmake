@@ -14,7 +14,7 @@ vcpkg_configure_cmake(
 vcpkg_install_cmake()
 #vcpkg_cmake_config_fixup()
 #vcpkg_cmake_install()
-#vcpkg_fixup_cmake_targets()
+vcpkg_fixup_cmake_targets()
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(
