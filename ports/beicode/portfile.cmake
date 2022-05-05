@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/beicode.git
-  REF 19a1f95c2f56a27ced90227b5e2754a602a08e69
+  REF 6a710b48f36db2c3090ddd6f7ce3beaebc1a5117
   FETCH_REF main
   HEAD_REF main
 )
