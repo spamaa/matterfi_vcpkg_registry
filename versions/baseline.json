@@ -7,7 +7,7 @@
 		"beicode": {
 			"baseline": "1.1.0",
 			"port-version": 1
-		}
+		},
 		"cmake-static-lib": {
 			"baseline": "2.0.0"
 		}
