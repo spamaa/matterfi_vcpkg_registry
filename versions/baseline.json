@@ -9,7 +9,7 @@
 			"port-version": 1
 		},
 		"cmake-static-lib": {
-			"baseline": "2.1.1"
+			"baseline": "2.1.2"
 		}
 		
 	}
