@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/cmake-static-lib.git
-  REF 4d01cbc6075fd5087b89689a5ef60662c968f76a
+  REF 7ebd700a99565b123cc70b6c4332a5f958925765
   FETCH_REF master
   HEAD_REF master
 )
