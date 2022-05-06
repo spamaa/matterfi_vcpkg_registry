@@ -1,0 +1,8 @@
+{
+    "name": "cmake-top-lib",
+    "version": "2.0.0",
+    "description": "Hello world top level lib",
+	"dependencies": [
+		"cmake-static-lib"
+	]
+}
