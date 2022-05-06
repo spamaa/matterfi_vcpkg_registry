@@ -1,0 +1,5 @@
+{
+  "name": "cmake-static-lib",
+  "version": "2.0.0",
+  "description": "A simple static lib hello world"
+}
