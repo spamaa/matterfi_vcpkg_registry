@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/CMakeTopLib.git
-  REF 9f2b307d11f9f59581b5da95b077d6d2adb63a40
+  REF fedf472bb719e9fed3723f161671f6db4f86d0b7
   FETCH_REF master
   HEAD_REF master
 )
