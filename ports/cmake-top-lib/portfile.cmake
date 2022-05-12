@@ -1,15 +1,25 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/CMakeTopLib.git
-  REF c3a52cc5bdc45cd78dbb85fc1f99bf067da2fb6b
+  REF 7a5f9571d233e81b6fdb69830b4618eddfc37dd5
   FETCH_REF master
   HEAD_REF master
 )
 
-vcpkg_configure_cmake(
-  SOURCE_PATH "${SOURCE_PATH}"
-  PREFER_NINJA
-)
+if (MSVC_ENABLE_ASAN)
+	message (STATUS "Porting cmake-lib-top with MSVC_ENABLE_ASAN")
+	vcpkg_configure_cmake(
+	  SOURCE_PATH "${SOURCE_PATH}"
+	  PREFER_NINJA
+	  OPTIONS -DMSVC_ENABLE_ASAN=ON
+	)
+else()
+	message (STATUS "Porting cmake-lib-top without MSVC_ENABLE_ASAN")
+	vcpkg_configure_cmake(
+	  SOURCE_PATH "${SOURCE_PATH}"
+	  PREFER_NINJA
+	)
+endif()
 
 vcpkg_install_cmake()
 #vcpkg_cmake_config_fixup()
