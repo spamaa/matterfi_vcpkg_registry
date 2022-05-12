@@ -1,5 +1,8 @@
 {
 	"default": {
+		"matterfi-cmake": {
+			"baseline": "0.1.0"
+		},
 		"cmake-top-lib": {
 			"baseline": "2.4.0"
 			},
