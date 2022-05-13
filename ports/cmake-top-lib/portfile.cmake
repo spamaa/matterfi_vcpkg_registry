@@ -12,7 +12,7 @@ message (STATUS "!!!!~~~~ _PACKAGE_NAME: '${_PACKAGE_NAME}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ VCPKG_INSTALLED_DIR: '${VCPKG_INSTALLED_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ _VCPKG_INSTALLED_DIR: '${_VCPKG_INSTALLED_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ include: '${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matterfi-config.cmake' ~~~~!!!!")
-include ("${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matterfi-config.cmake")
+include ("${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matterfi_config.cmake")
 matterfi_hello()
 message (STATUS "!!!!~~~~ END From cmake-lib-top portfile END ~~~~!!!!")
 # END
