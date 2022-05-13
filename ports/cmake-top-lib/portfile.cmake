@@ -27,6 +27,9 @@ else()
 	vcpkg_configure_cmake(
 	  SOURCE_PATH "${SOURCE_PATH}"
 	  PREFER_NINJA
+	  OPTIONS
+		-DMATTERFI_CMAKE_CONFIG_FILE="share/matterfi-cmake/matterfi_config.cmake"
+		-DMATTERFI_CMAKE_HOST_TRIPLET="${_HOST_TRIPLET}"
 	)
 endif()
 
