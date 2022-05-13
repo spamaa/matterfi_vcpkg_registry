@@ -1,13 +1,14 @@
 # this is a sample how to use external matterfi-cmake modules in port file
 # BEGIN
 message (STATUS "!!!!~~~~ BEGIN From cmake-lib-top portfile BEGIN ~~~~!!!!")
-message (STATUS "!!!!** _HOST_TRIPLET: '${_HOST_TRIPLET}' **!!!!")
+message (STATUS "!!!!~~~~ _HOST_TRIPLET: '${_HOST_TRIPLET}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ CMAKE_CURRENT_LIST_DIR: '${CMAKE_CURRENT_LIST_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ CURRENT_PACKAGES_DIR: '${CURRENT_PACKAGES_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ CURRENT_PORT_DIR: '${CURRENT_PORT_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ CURRENT_INSTALLED_DIR: '${CURRENT_INSTALLED_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ PORT: '${PORT}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ PACKAGE_NAME: '${PACKAGE_NAME}' ~~~~!!!!")
+message (STATUS "!!!!~~~~ VCPKG_INSTALLED_DIR: '${VCPKG_INSTALLED_DIR}' ~~~~!!!!")
 include ("${CMAKE_CURRENT_LIST_DIR}/../matterfi-cmake/matterfi-config.cmake")
 matterfi_hello()
 message (STATUS "!!!!~~~~ END From cmake-lib-top portfile END ~~~~!!!!")
