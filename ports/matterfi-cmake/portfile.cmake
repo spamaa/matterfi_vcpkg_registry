@@ -8,7 +8,8 @@ message (STATUS "!!!!** CURRENT_PORT_DIR: '${CURRENT_PORT_DIR}' **!!!!")
 message (STATUS "!!!!** CURRENT_INSTALLED_DIR: '${CURRENT_INSTALLED_DIR}' **!!!!")
 message (STATUS "!!!!** PORT: '${PORT}' **!!!!")
 message (STATUS "!!!!** PACKAGE_NAME: '${PACKAGE_NAME}' **!!!!")
-message (STATUS "!!!!** VCPKG_INSTALLED_DIR: '${VCPKG_INSTALLED_DIR}' **!!!!")
+message (STATUS "!!!!** _PACKAGE_NAME: '${_PACKAGE_NAME}' **!!!!")
+message (STATUS "!!!!** _VCPKG_INSTALLED_DIR: '${_VCPKG_INSTALLED_DIR}' **!!!!")
 message (STATUS "!!!!** BEGIN matterf-cmake BEGIN **!!!!")
 
 file (INSTALL 
