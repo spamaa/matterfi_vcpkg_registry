@@ -1,11 +1,3 @@
-vcpkg_from_git(
-  OUT_SOURCE_PATH SOURCE_PATH
-  URL git-matterfi@odroidH2:repos/CMakeTopLib.git
-  REF 7a5f9571d233e81b6fdb69830b4618eddfc37dd5
-  FETCH_REF master
-  HEAD_REF master
-)
-
 # this is a sample how to use external matterfi-cmake modules in port file
 # BEGIN
 message (STATUS "!!!!~~~~ BEGIN From cmake-lib-top portfile BEGIN ~~~~!!!!")
@@ -14,6 +6,14 @@ include ("${CMAKE_CURRENT_LIST_DIR}/../matterfi-cmake/matterfi-config.cmake")
 matterfi_hello()
 message (STATUS "!!!!~~~~ END From cmake-lib-top portfile END ~~~~!!!!")
 # END
+
+vcpkg_from_git(
+  OUT_SOURCE_PATH SOURCE_PATH
+  URL git-matterfi@odroidH2:repos/CMakeTopLib.git
+  REF 7a5f9571d233e81b6fdb69830b4618eddfc37dd5
+  FETCH_REF master
+  HEAD_REF master
+)
 
 if (MSVC_ENABLE_ASAN)
 	message (STATUS "Porting cmake-lib-top with MSVC_ENABLE_ASAN")
