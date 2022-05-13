@@ -1,20 +1,7 @@
 # this is a sample how to use external matterfi-cmake modules in port file
 # BEGIN
-message (STATUS "!!!!~~~~ BEGIN From cmake-lib-top portfile BEGIN ~~~~!!!!")
-message (STATUS "!!!!~~~~ _HOST_TRIPLET: '${_HOST_TRIPLET}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ CMAKE_CURRENT_LIST_DIR: '${CMAKE_CURRENT_LIST_DIR}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ CURRENT_PACKAGES_DIR: '${CURRENT_PACKAGES_DIR}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ CURRENT_PORT_DIR: '${CURRENT_PORT_DIR}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ CURRENT_INSTALLED_DIR: '${CURRENT_INSTALLED_DIR}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ PORT: '${PORT}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ PACKAGE_NAME: '${PACKAGE_NAME}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ _PACKAGE_NAME: '${_PACKAGE_NAME}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ VCPKG_INSTALLED_DIR: '${VCPKG_INSTALLED_DIR}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ _VCPKG_INSTALLED_DIR: '${_VCPKG_INSTALLED_DIR}' ~~~~!!!!")
-message (STATUS "!!!!~~~~ include: '${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matterfi-config.cmake' ~~~~!!!!")
 include ("${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matterfi_config.cmake")
 matterfi_hello()
-message (STATUS "!!!!~~~~ END From cmake-lib-top portfile END ~~~~!!!!")
 # END
 
 vcpkg_from_git(
