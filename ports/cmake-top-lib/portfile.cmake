@@ -17,7 +17,10 @@ if (MSVC_ENABLE_ASAN)
 	vcpkg_configure_cmake(
 	  SOURCE_PATH "${SOURCE_PATH}"
 	  PREFER_NINJA
-	  OPTIONS -DMSVC_ENABLE_ASAN=ON
+	  OPTIONS 
+		-DMSVC_ENABLE_ASAN=ON
+		-DMATTERFI_CMAKE_CONFIG_FILE="share/matterfi-cmake/matterfi_config.cmake"
+		-DMATTERFI_CMAKE_HOST_TRIPLET="${_HOST_TRIPLET}"
 	)
 else()
 	message (STATUS "Porting cmake-lib-top without MSVC_ENABLE_ASAN")
