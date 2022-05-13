@@ -5,7 +5,7 @@
 		},
 		"cmake-top-lib": {
 			"baseline": "2.4.0",
-			"port-version": 1
+			"port-version": 2
 			},
 		"cmake-static-lib": {
 			"baseline": "2.3.1"

@@ -1,7 +1,7 @@
 # this is a sample how to use external matterfi-cmake modules in port file
 # BEGIN
-include ("CMAKE_CURRENT_LIST_DIR/../matterfi-cmake/matterfi-config.cmake")
 message (STATUS "!!!!~~~~ BEGIN From cmake-lib-top portfile BEGIN ~~~~!!!!")
+include ("${CMAKE_CURRENT_LIST_DIR}/../matterfi-cmake/matterfi-config.cmake")
 message (STATUS "!!!!~~~~ CMAKE_CURRENT_LIST_DIR: '${CMAKE_CURRENT_LIST_DIR}' ~~~~!!!!")
 matterfi_hello()
 message (STATUS "!!!!~~~~ END From cmake-lib-top portfile END ~~~~!!!!")
