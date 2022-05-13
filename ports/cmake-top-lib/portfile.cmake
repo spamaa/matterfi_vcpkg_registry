@@ -6,6 +6,7 @@ message (STATUS "!!!!~~~~ CURRENT_PACKAGES_DIR: '${CURRENT_PACKAGES_DIR}' ~~~~!!
 message (STATUS "!!!!~~~~ CURRENT_PORT_DIR: '${CURRENT_PORT_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ CURRENT_INSTALLED_DIR: '${CURRENT_INSTALLED_DIR}' ~~~~!!!!")
 message (STATUS "!!!!~~~~ PORT: '${PORT}' ~~~~!!!!")
+message (STATUS "!!!!~~~~ PACKAGE_NAME: '${PACKAGE_NAME}' ~~~~!!!!")
 include ("${CMAKE_CURRENT_LIST_DIR}/../matterfi-cmake/matterfi-config.cmake")
 matterfi_hello()
 message (STATUS "!!!!~~~~ END From cmake-lib-top portfile END ~~~~!!!!")
