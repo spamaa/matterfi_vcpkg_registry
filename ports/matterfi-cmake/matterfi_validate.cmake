@@ -105,7 +105,6 @@ if (NOT DEFINED __MODULE_MATTERFI_VALIDATE_INCLUDED__)
 					message (STATUS "!!!! VCPKG manifest mode is not enabled !!!!")
 				endif()
 			endif()
-			message (STATUS "!!!!@@ _idx: '${_idx}' @@!!!!")
 		endif()
 	endmacro(matterfi_check_vcpkg_modes)
 
