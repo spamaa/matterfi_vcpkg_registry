@@ -10,16 +10,25 @@ mattefri_check_toolchain_file()
 ```
 
 ## matterfi_check_triplets_location()
-Validates if triplets directory is set and points to existing directory.
+Validates if triplets directory is set and points to existing directory. This macro should be used only for top level projects.
 ### usage:
 ```
 matterfi_check_triplets_location()
 ```
+
+
 ## matterfi_check_triplet_file()
-Validates if triplet is set and points to exsiting file.
+Validates if triplet is set and points to exsiting file. This macro should be used only for top level projects
 ### usage:
 ```
 matterfi_check_triplet_file()
+```
+
+## matterfi_check_triplet_is_set()
+Validates if triplet is set. Use this macro instead of '''matterfi_check_triplets_location''' and '''matterfi_check_triplet_file''' for library project or project which become dependency to other project
+### usage:
+```
+matterfi_check_triplet_is_set()
 ```
 
 ### matterfi_check_vcpkg_modes()
@@ -72,6 +81,14 @@ if (NOT DEFINED __MODULE_MATTERFI_VALIDATE_INCLUDED__)
 		endif()
 	endmacro(matterfi_check_triplet_file) 
 	
+	
+	macro (matterfi_check_triplet_is_set)
+		if (NOT DEFINED VCPKG_TARGET_TRIPLET)
+			message (FATAL_ERROR "!!!! TRIPLET TYPE IS NOT SELECTED !!!!")
+		else()
+			message (STATUS "Using triplet: '${VCPKG_TARGET_TRIPLET}'")
+		endif()
+	endmacro(matterfi_check_triplet_is_set)
 	
 	
 	macro (matterfi_check_vcpkg_modes)
