@@ -1,7 +1,8 @@
 # this is a sample how to use external matterfi-cmake modules in port file
 # BEGIN
 include ("${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matterfi_config.cmake")
-matterfi_hello()
+# call some function or macro
+#matterfi_hello()
 # END
 
 vcpkg_from_git(
