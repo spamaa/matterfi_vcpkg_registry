@@ -35,7 +35,7 @@ if (NOT DEFINED __MODULE_MATTERFI_VALIDATE_INCLUDED__)
 	set (__MODULE_MATTERFI_VALIDATE_INCLUDED__ 1)
 	message (DEBUG "'${CMAKE_CURRENT_LIST_FILE}' included".)
 	
-	macro (mattefri_check_toolchain_file)
+	macro (matterfi_check_toolchain_file)
 		if (NOT DEFINED  CMAKE_TOOLCHAIN_FILE)
 			message (FATAL_ERROR "!!!! VCPKG INTEGRATION IS NOT ENABLED !!!!")
 		else()
@@ -45,7 +45,7 @@ if (NOT DEFINED __MODULE_MATTERFI_VALIDATE_INCLUDED__)
 				message (STATUS "Using cmake toolchain file: '${CMAKE_TOOLCHAIN_FILE}'")
 			endif()
 		endif()
-	endmacro(mattefri_check_toolchain_file)
+	endmacro(matterfi_check_toolchain_file)
 	
 	
 	
