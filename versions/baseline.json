@@ -4,7 +4,7 @@
 			"baseline": "0.4.0"
 		},
 		"cmake-top-lib": {
-			"baseline": "2.6.0"
+			"baseline": "2.6.1"
 			},
 		"cmake-static-lib": {
 			"baseline": "2.3.1"

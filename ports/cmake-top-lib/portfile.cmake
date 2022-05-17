@@ -7,7 +7,7 @@ matterfi_hello()
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/CMakeTopLib.git
-  REF 2649dd26ed0096b27aca76c8ae048daa7a67f653
+  REF 94711f1eee945c5150e5d54549f021bf3b872f86
   FETCH_REF master
   HEAD_REF master
 )
