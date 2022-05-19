@@ -41,6 +41,15 @@ if (NOT DEFINED __MODULE_MATTERFI_ADD_TEST_TARGET_INCLUDED__)
 			${_target_name} PRIVATE
 			GOOGLETEST_SUPPORTED
 		)
+		
+		# This is required if using VStudio 2022 17.2 or later.
+		# GTock is compiled without ASAN, hence we do not want to have linking error that says that not
+		# all static libs from dependencies was compiled with ASAN
+		if (MSVC_ENABLE_ASAN)
+			target_compile_definitions(${TARGET_NAME} PRIVATE
+				_DISABLE_VECTOR_ANNOTATION
+			)
+		endif()		
 
 		target_include_directories(${_target_name} PRIVATE
 			${${_project_name}_ROOT_DIR}/tests
