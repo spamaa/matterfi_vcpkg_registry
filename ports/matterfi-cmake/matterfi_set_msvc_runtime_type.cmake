@@ -32,13 +32,13 @@ function (matterfi_set_msvc_type _target_name)
 			else()
 				message (FATAL_ERROR "Unsupported CMAKE_BUILD_TYPE: '${CMAKE_BUILD_TYPE}'")
 			endif()
-			 message (STATUS "Using triplet: '${VCPKG_TARGET_TRIPLET}'")
+			 message (STATUS "Using triplet: '${VCPKG_TARGET_TRIPLET}' for target: '${_target_name}'")
 		endif()
 
 		# set compilation type for windows
 		# see: https://cmake.org/cmake/help/latest/prop_tgt/MSVC_RUNTIME_LIBRARY.html 
 		# for more options
-		message (STATUS "Setting MSVC runtime type to: '${MSVC_RUNTIME_TYPE}'")
+		message (STATUS "Setting MSVC runtime type to: '${MSVC_RUNTIME_TYPE}' for target: '${_target_name}'")
 		set_target_properties(${_target_name} PROPERTIES
 				MSVC_RUNTIME_LIBRARY ${MSVC_RUNTIME_TYPE}
 		)
