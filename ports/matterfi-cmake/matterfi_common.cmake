@@ -27,4 +27,4 @@ if (NOT DEFINED __MODULE_MATTERFI_COMMON_INCLUDED__)
         set (${out_var} "${_tmp}" PARENT_SCOPE)
     endfunction()
 
-endif()		# // if (NOT DEFINED __MODULE_MATTERFI_COMMON_INCLUDED__)
+endif()		# if (NOT DEFINED __MODULE_MATTERFI_COMMON_INCLUDED__)

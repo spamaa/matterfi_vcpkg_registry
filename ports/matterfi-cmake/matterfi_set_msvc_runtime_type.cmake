@@ -18,6 +18,9 @@ Name of the target.
 
 #]===]
 
+if (NOT DEFINED __MODULE_MATTERFI_SET_MSVC_RUNTIME_TYPE_INCLUDED__)
+	set (__MODULE_MATTERFI_SET_MSVC_RUNTIME_TYPE_INCLUDED__ 1)
+
 function (matterfi_set_msvc_type _target_name)
 	if (MSVC)
 		# set proper runtime type for msvc
@@ -45,3 +48,4 @@ function (matterfi_set_msvc_type _target_name)
 	endif()
 endfunction(matterfi_set_msvc_type)
 
+endif()		# if (NOT DEFINED __MODULE_MATTERFI_SET_MSVC_RUNTIME_TYPE_INCLUDED__)
