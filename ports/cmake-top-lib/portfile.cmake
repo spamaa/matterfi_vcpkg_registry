@@ -8,7 +8,7 @@ include ("${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matt
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/CMakeTopLib.git
-  REF e41c5d18ead3ad1fa137604a5708e018eada58ca
+  REF a9050fe378f8e0465f052920626c8cb1914bd515
   FETCH_REF master
   HEAD_REF master
 )
