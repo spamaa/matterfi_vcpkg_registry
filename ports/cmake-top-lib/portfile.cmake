@@ -20,7 +20,7 @@ else()
 	  OUT_SOURCE_PATH SOURCE_PATH
 	  REPO spamaa/mt_cmake_top_lib
 	  REF 3e53ee7445e8ed6f466ccc6c759f60fd5c837001
-	  SHA512 0
+	  SHA512 fe22bd6939c1d92a98700d5bd8429e9cda89cad2bce155e8b15cbeee1c5e674ef8a7810b3ec54100b13894376f6c55594b99afd48182bf19b2f708030f0c33a5
 	  HEAD_REF master
 	)	
 endif()
