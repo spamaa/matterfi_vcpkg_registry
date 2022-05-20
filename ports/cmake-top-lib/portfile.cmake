@@ -5,13 +5,26 @@ include ("${CURRENT_INSTALLED_DIR}/../${_HOST_TRIPLET}/share/matterfi-cmake/matt
 #matterfi_hello()
 # END
 
-vcpkg_from_git(
-  OUT_SOURCE_PATH SOURCE_PATH
-  URL git-matterfi@odroidH2:repos/CMakeTopLib.git
-  REF 3e53ee7445e8ed6f466ccc6c759f60fd5c837001
-  FETCH_REF master
-  HEAD_REF master
-)
+if (MT_USE_LOCAL_REPOSITORY)
+	message(STATUS "Fetching sources from local repository: 'cmake-top-lib'")
+		vcpkg_from_git(
+		  OUT_SOURCE_PATH SOURCE_PATH
+		  URL git-matterfi@odroidH2:repos/CMakeTopLib.git
+		  REF 3e53ee7445e8ed6f466ccc6c759f60fd5c837001
+		  FETCH_REF master
+		  HEAD_REF master
+		)
+	)
+else()
+	message(STATUS "Fetching sources from github: 'cmake-top-lib'")
+	vcpkg_from_github(
+	  OUT_SOURCE_PATH SOURCE_PATH
+	  REPO spamaa/mt_cmake_top_lib
+	  REF 3e53ee7445e8ed6f466ccc6c759f60fd5c837001
+	  SHA512 0
+	  HEAD_REF master
+	)	
+endif()
 
 if (MSVC_ENABLE_ASAN)
 	message (STATUS "Porting cmake-lib-top with MSVC_ENABLE_ASAN")
