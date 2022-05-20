@@ -1,13 +1,4 @@
 if (MT_USE_LOCAL_REPOSITORY)
-	message(STATUS "Fetching sources from github: 'cmake-static-lib'")
-	vcpkg_from_github(
-	  OUT_SOURCE_PATH SOURCE_PATH
-	  REPO spamaa/mt_cmake_static_lib
-	  REF 806cee3c01e0e21cdde729f43054b67ff2c0868c
-	  SHA512 0
-	  HEAD_REF master
-	)	
-else()
 	message(STATUS "Fetching sources from local repository: 'cmake-static-lib'")
 	vcpkg_from_git(
 	  OUT_SOURCE_PATH SOURCE_PATH
@@ -16,6 +7,15 @@ else()
 	  FETCH_REF master
 	  HEAD_REF master
 	)
+else()
+	message(STATUS "Fetching sources from github: 'cmake-static-lib'")
+	vcpkg_from_github(
+	  OUT_SOURCE_PATH SOURCE_PATH
+	  REPO spamaa/mt_cmake_static_lib
+	  REF 806cee3c01e0e21cdde729f43054b67ff2c0868c
+	  SHA512 0
+	  HEAD_REF master
+	)	
 endif()
 
 
