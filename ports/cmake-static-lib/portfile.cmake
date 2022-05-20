@@ -1,3 +1,9 @@
+if (MT_USE_LOCAL_REPOSITORY)
+	message(STATUS "!!!! LOCAL REPO: MT_USE_LOCAL_REPOSITORY: '${MT_USE_LOCAL_REPOSITORY}' !!!!")
+else()
+	message(STATUS "!!!! GITHUB REPO: 	MT_USE_LOCAL_REPOSITORY: '${MT_USE_LOCAL_REPOSITORY}' !!!!")
+endif()
+
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git-matterfi@odroidH2:repos/CMakeStaticLib.git
