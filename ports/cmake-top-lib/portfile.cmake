@@ -14,7 +14,6 @@ if (MT_USE_LOCAL_REPOSITORY)
 		  FETCH_REF master
 		  HEAD_REF master
 		)
-	)
 else()
 	message(STATUS "Fetching sources from github: 'cmake-top-lib'")
 	vcpkg_from_github(
