@@ -13,7 +13,7 @@ else()
 	  OUT_SOURCE_PATH SOURCE_PATH
 	  REPO spamaa/mt_cmake_static_lib
 	  REF 806cee3c01e0e21cdde729f43054b67ff2c0868c
-	  SHA512 0
+	  SHA512 532da2eead16c83adea4487e37a0fc8f3724ef08eeadd520b600e8283b631ae3654e366b671d01bd48da2bf27bab4250263b20d880ee1b81518a88997680f1cd
 	  HEAD_REF master
 	)	
 endif()
