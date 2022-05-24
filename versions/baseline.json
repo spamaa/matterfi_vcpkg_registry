@@ -17,11 +17,15 @@
 		},
 		"boost-vcpkg-helpers": {
 			"baseline": "7",
-			"port-version": 2
+			"port-version": 2		
 		},
 		"boost-uninstall": {
 			"baseline": "1.75.0",
 			"port-version": 1
+		},
+		"boost-config": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
