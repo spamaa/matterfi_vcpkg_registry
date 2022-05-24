@@ -26,6 +26,10 @@
 		"boost-config": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-preprocessor": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
