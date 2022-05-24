@@ -14,6 +14,10 @@
 		"gtest": {
 		  "baseline": "1.11.0",
 		  "port-version": 5
+		},
+		"boost-uninstall": {
+			"baseline": "1.75.0",
+			"port-version": 1
 		}
 	}
 }
