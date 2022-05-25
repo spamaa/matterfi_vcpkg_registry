@@ -41,7 +41,7 @@
 		},
 		"boost-static-assert": {
 			"baseline": "1.76.0",
-			"port-version": 0
+			"port-version": 1
 		},
 		"boost-core": {
 			"baseline": "1.76.0",
