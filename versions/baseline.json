@@ -58,6 +58,10 @@
 		"boost-align": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-array": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
