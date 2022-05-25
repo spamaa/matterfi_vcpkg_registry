@@ -46,6 +46,10 @@
 		"boost-core": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-type-traits": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
