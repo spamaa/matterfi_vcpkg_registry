@@ -70,6 +70,10 @@
 		"boost-build": {
 			"baseline": "1.76.0",
 			"port-version": 2
+		},
+		"boost-modular-build-helper": {
+			"baseline": "1.76.0",
+			"port-version": 2
 		}
 	}
 }
