@@ -12,8 +12,6 @@ vcpkg_from_github(
     REF boost-${BOOST_VERSION}
     SHA512 2c4088c413e63d7eb192c368960a60fc534fd3a804ebf5577a35e0f77d50518c919e31c67361b1c968d7920387e2348e42443bf090cc246a285828444ecac6bc
     HEAD_REF master
-    PATCHES
-        fix_options.patch
 )
 
 vcpkg_download_distfile(ARCHIVE
