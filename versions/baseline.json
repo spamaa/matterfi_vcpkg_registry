@@ -74,6 +74,10 @@
 		"boost-modular-build-helper": {
 			"baseline": "1.76.0",
 			"port-version": 2
+		},
+		"boost-predef": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
