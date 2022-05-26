@@ -82,6 +82,10 @@
 		"boost-winapi": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-system": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
