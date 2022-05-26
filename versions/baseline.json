@@ -66,6 +66,10 @@
 		"boost-bind": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-build": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
