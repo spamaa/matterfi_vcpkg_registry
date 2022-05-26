@@ -98,6 +98,10 @@
 		"boost-mpl": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-ratio": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
