@@ -114,6 +114,10 @@
 		"boost-utility": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-chrono": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
