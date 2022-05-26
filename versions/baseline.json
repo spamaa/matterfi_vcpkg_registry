@@ -94,6 +94,10 @@
 		"boost-move": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-mpl": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
