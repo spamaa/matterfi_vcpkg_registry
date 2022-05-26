@@ -78,6 +78,10 @@
 		"boost-predef": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-winapi": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
