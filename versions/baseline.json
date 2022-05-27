@@ -154,6 +154,10 @@
 		"boost-function-types": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-fusion": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
