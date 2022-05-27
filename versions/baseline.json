@@ -162,6 +162,10 @@
 		"boost-optional": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-iterator": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
