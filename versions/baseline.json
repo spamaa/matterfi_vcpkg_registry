@@ -146,6 +146,10 @@
 		"boost-function": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-conversion": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
