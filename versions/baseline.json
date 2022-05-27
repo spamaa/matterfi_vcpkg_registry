@@ -142,6 +142,10 @@
 		"boost-type-index": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-function": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
