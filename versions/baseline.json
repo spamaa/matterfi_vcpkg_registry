@@ -134,6 +134,10 @@
 		"boost-exception": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-concept-check": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
