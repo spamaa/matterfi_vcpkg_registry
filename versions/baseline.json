@@ -126,6 +126,10 @@
 		"boost-smart-ptr": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-tuple": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }

@@ -1,0 +1,14 @@
+{
+  "name": "boost-tuple",
+  "version": "1.76.0",
+  "port-version": 1,
+  "description": "Boost tuple module",
+  "homepage": "https://github.com/boostorg/tuple",
+  "dependencies": [
+    "boost-config",
+    "boost-core",
+    "boost-static-assert",
+    "boost-type-traits",
+    "boost-vcpkg-helpers"
+  ]
+}
