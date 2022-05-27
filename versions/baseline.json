@@ -130,6 +130,10 @@
 		"boost-tuple": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-exception": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
