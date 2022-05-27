@@ -138,6 +138,10 @@
 		"boost-concept-check": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-type-index": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
