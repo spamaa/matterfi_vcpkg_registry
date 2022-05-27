@@ -122,6 +122,10 @@
 		"boost-typeof": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-smart-ptr": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
