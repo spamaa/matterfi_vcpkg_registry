@@ -158,6 +158,10 @@
 		"boost-fusion": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-optional": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
