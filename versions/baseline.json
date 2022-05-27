@@ -150,6 +150,10 @@
 		"boost-conversion": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-function-types": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
