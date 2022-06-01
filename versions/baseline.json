@@ -170,6 +170,10 @@
 		"boost-regex": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-numeric-conversion": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
