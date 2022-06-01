@@ -182,6 +182,10 @@
 		"boost-intrusive": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-container": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
