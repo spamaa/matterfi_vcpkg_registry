@@ -1,0 +1,22 @@
+{
+  "name": "boost-regex",
+  "version": "1.76.0",
+  "port-version": 1,
+  "description": "Boost regex module",
+  "homepage": "https://github.com/boostorg/regex",
+  "dependencies": [
+    "boost-assert",
+    {
+      "name": "boost-build",
+      "host": true
+    },
+    "boost-config",
+    {
+      "name": "boost-modular-build-helper",
+      "host": true
+    },
+    "boost-predef",
+    "boost-throw-exception",
+    "boost-vcpkg-helpers"
+  ]
+}

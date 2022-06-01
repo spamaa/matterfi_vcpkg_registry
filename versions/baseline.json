@@ -166,6 +166,10 @@
 		"boost-iterator": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-regex": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
