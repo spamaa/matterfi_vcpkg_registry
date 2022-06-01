@@ -178,6 +178,10 @@
 		"boost-range": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-intrusive": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
