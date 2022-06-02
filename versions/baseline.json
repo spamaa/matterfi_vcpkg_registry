@@ -186,6 +186,10 @@
 		"boost-container": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-functional": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
