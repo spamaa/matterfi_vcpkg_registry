@@ -190,6 +190,10 @@
 		"boost-functional": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-unordered": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
