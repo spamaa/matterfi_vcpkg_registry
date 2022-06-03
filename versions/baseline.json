@@ -218,6 +218,10 @@
 		"boost-random": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-math": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
