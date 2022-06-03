@@ -222,6 +222,10 @@
 		"boost-math": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-tokenizer": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
