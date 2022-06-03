@@ -214,6 +214,10 @@
 		"boost-dynamic-bitset": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-random": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
