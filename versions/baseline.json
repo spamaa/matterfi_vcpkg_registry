@@ -68,8 +68,8 @@
 			"port-version": 1
 		},
 		"boost-build": {
-			"baseline": "1.76.0",
-			"port-version": 2
+			"baseline": "1.75.0",
+			"port-version": 0
 		},
 		"boost-modular-build-helper": {
 			"baseline": "1.76.0",
