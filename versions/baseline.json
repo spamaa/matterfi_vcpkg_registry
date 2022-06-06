@@ -230,6 +230,10 @@
 		"boost-date-time": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-thread": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
