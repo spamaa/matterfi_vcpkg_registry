@@ -238,6 +238,10 @@
 		"boost-pool": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-context": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
