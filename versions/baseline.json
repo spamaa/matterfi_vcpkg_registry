@@ -226,6 +226,10 @@
 		"boost-tokenizer": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-date-time": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
