@@ -250,6 +250,10 @@
 		"openssl": {
 			"baseline": "1.1.1l",
 			"port-version": 1
+		},
+		"boost-asio": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
