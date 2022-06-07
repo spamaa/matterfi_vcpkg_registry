@@ -254,6 +254,10 @@
 		"boost-asio": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-endian": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
