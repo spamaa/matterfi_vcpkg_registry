@@ -258,6 +258,10 @@
 		"boost-endian": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-filesystem": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
