@@ -270,6 +270,10 @@
 		"boost-mp11": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-beast": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
