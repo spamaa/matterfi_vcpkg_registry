@@ -294,6 +294,10 @@
 		"boost-any": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-program-options": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
