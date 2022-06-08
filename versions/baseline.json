@@ -282,6 +282,10 @@
 		"boost-json": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-rational": {
+			"baseline": "1.76.0",
+			"port-version": 1
 		}
 	}
 }
