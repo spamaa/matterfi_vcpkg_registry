@@ -274,6 +274,10 @@
 		"boost-beast": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-circular-buffer": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
