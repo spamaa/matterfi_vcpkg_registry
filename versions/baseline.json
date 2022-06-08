@@ -286,6 +286,10 @@
 		"boost-rational": {
 			"baseline": "1.76.0",
 			"port-version": 1
+		},
+		"boost-multiprecision": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
