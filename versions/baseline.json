@@ -278,6 +278,10 @@
 		"boost-circular-buffer": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"boost-json": {
+			"baseline": "1.76.0",
+			"port-version": 0
 		}
 	}
 }
