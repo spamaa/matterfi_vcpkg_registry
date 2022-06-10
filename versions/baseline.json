@@ -330,6 +330,10 @@
 		"boost-iostreams": {
 			"baseline": "1.76.0",
 			"port-version": 0
+		},
+		"egl-registry": {
+			"baseline": "2021-08-03",
+			"port-version": 0
 		}
 	}
 }
