@@ -338,6 +338,10 @@
 		"opengl-registry": {
 			"baseline": "2019-08-21",
 			"port-version": 0
+		},
+		"double-conversion": {
+			"baseline": "3.1.5",
+			"port-version": 2
 		}
 	}
 }
