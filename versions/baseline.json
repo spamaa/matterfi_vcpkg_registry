@@ -350,6 +350,10 @@
 		"expat": {
 			"baseline": "2.4.3",
 			"port-version": 0
+		},
+		"brotli": {
+			"baseline": "1.0.9",
+			"port-version": 2
 		}
 	}
 }
