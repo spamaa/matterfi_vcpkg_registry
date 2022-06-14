@@ -346,6 +346,10 @@
 		"dirent": {
 			"baseline": "1.23.2",
 			"port-version": 1
+		},
+		"expat": {
+			"baseline": "2.4.3",
+			"port-version": 0
 		}
 	}
 }
