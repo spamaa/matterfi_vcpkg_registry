@@ -362,6 +362,10 @@
 		"freetype": {
 			"baseline": "2.11.0",
 			"port-version": 2
+		},
+		"libiconv": {
+			"baseline": "1.16",
+			"port-version": 13
 		}
 	}
 }
