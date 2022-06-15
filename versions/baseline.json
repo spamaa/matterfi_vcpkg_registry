@@ -366,6 +366,10 @@
 		"libiconv": {
 			"baseline": "1.16",
 			"port-version": 13
+		},
+		"gettext": {
+			"baseline": "0.21",
+			"port-version": 9
 		}
 	}
 }
