@@ -1,0 +1,6 @@
+{
+  "name": "json-c",
+  "version-string": "0.15",
+  "description": "A JSON implementation in C",
+  "homepage": "https://github.com/json-c/json-c"
+}

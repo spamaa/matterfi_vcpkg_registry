@@ -370,6 +370,10 @@
 		"gettext": {
 			"baseline": "0.21",
 			"port-version": 9
+		},
+		"json-c": {
+			"baseline": "0.15",
+			"port-version": 0
 		}
 	}
 }
