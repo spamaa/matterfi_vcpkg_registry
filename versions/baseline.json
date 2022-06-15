@@ -358,6 +358,10 @@
 		"libpng": {
 			"baseline": "1.6.37",
 			"port-version": 17
+		},
+		"freetype": {
+			"baseline": "2.11.0",
+			"port-version": 2
 		}
 	}
 }
