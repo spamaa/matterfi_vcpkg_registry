@@ -1,0 +1,14 @@
+diff --git a/tools/meson/mesonbuild/dependencies/misc.py b/tools/meson/mesonbuild/dependencies/misc.py
+index d573c8849..c8bb17164 100644
+--- a/tools/meson/mesonbuild/dependencies/misc.py
++++ b/tools/meson/mesonbuild/dependencies/misc.py
+@@ -693,7 +693,8 @@ iconv_factory = DependencyFactory(
+ 
+ intl_factory = DependencyFactory(
+     'intl',
+-    [DependencyMethods.BUILTIN, DependencyMethods.SYSTEM],
++    [DependencyMethods.BUILTIN, DependencyMethods.SYSTEM, DependencyMethods.CMAKE],
++    cmake_name='Intl',
+     builtin_class=IntlBuiltinDependency,
+     system_class=IntlSystemDependency,
+ )
